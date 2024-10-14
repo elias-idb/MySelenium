@@ -26,7 +26,7 @@ async function testRun(){
     await driver.findElement(By.xpath("//a[@href='/cart' and contains(text(),'VIEW CART')]")).click();
     await driver.sleep(2000);
     await driver.findElement(By.xpath("//a[@href='/checkout' and contains(text(), '')]")).click();
-    await driver.sleep(2000);
+    //await driver.sleep(2000);
 
     await driver.sleep(1000);
 
